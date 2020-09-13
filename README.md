@@ -1,1 +1,1 @@
-# image-processing
+# ee604_plugins
