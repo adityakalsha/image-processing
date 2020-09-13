@@ -1,8 +1,8 @@
 import numpy as np
 import subprocess
 
-assignment_no_list = [0]
-task_no_list = [0]
+assignment_no_list = [0,1,2,3,4]
+task_no_list = [0,1,2,3,4]
 def download_dataset(assignment_no=0, task_no=0):
     if (assignment_no in assignment_no_list) and (task_no in task_no_list):
         #url = "https://github.com/ee604/ee604_assignments/raw/master/assignment_" + str(assignment_no) + "/data/task_" + str(task_no) + ".zip"
